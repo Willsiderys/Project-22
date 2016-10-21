@@ -1,0 +1,113 @@
+h1 {
+  color: aquamarine;
+  text-align: center;
+  font-family: 'Playfair Display', serif; }
+
+h1:hover {
+  font-size: 40px;
+  transition: .5s; }
+
+h2 {
+  color: beige;
+  text-align: center;
+  font-family: 'Playfair Display', serif; }
+
+body {
+  text-align: justify;
+  background-color: #000066; }
+
+#aristocats-cover {
+  float: left;
+  margin: 10px; }
+
+#firstdiv {
+  width: 100%;
+  min-height: 530px;
+  background-color: #9933ff; }
+
+#firstdiv:hover {
+  min-height: 545px;
+  background-color: #cc99ff;
+  transition: .4s; }
+
+#seconddiv {
+  width: 100%;
+  min-height: 400px;
+  background-color: #33cccc; }
+
+#seconddiv:hover {
+  min-height: 415px;
+  background-color: #99e6e6;
+  transition: .4s; }
+
+#aristocats-cover:hover {
+  margin: 30px;
+  transition: .3s; }
+
+p {
+  color: whitesmoke;
+  font-family: 'Abhaya Libre', serif;
+  font-size: 24px;
+  text-align: justify;
+  margin: 5px;
+  padding-top: 15px; }
+
+#dancing-cats {
+  float: right;
+  margin: 15px; }
+
+#dancing-cats:hover {
+  margin: 20px;
+  transition: .4s; }
+
+.sassydiv {
+  background-color: #009933;
+  width: 100%;
+  min-height: 400px;
+  float: left; }
+
+.sassydiv:hover {
+  background-color: #00e64d;
+  transition: .3s;
+  min-height: 420px; }
+
+#somanycats {
+  float: right;
+  margin: 15px; }
+
+#somanycats:hover {
+  margin: 10px;
+  transition: .3s; }
+
+h3 {
+  text-align: center;
+  font-size: 35px;
+  font-family: 'Abhaya Libre', serif; }
+
+#divfour {
+  width: 100%;
+  min-height: 750px;
+  background-color: #ff8000; }
+
+#divfour:hover {
+  min-height: 760px;
+  background-color: #ffa64d;
+  transition: .3s; }
+
+#nosecats {
+  float: left;
+  margin: 10px; }
+
+#nosecats:hover {
+  margin: 15px;
+  transition: .3s; }
+
+li {
+  color: whitesmoke;
+  font-family: 'Abhaya Libre', serif;
+  font-size: 24px;
+  text-align: justify;
+  margin: 5px;
+  padding-top: 15px; }
+
+/*# sourceMappingURL=style.css.map */

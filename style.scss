@@ -1,0 +1,145 @@
+$color-one:#9933ff;
+$color-two:#cc99ff;
+$color-three:#33cccc;
+$color-four:#99e6e6;
+$color-five:#009933;
+$color-six:#00e64d;
+$color-seven:#ff8000;
+$color-eight:#ffa64d;
+$background:#000066;
+
+    
+h1{
+    color:aquamarine;
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    
+}
+
+h1:hover{
+    font-size:40px;
+    transition:.5s;
+}
+
+h2{
+    color:beige;
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+}
+
+body{
+    text-align:justify;
+    background-color:$background;
+}
+
+#aristocats-cover{
+    float:left;
+    margin:10px;
+}
+
+#firstdiv{
+    width:100%;
+    min-height: 530px;
+    background-color: $color-one;
+}
+
+#firstdiv:hover{
+    min-height:545px;
+    background-color:$color-two;
+    transition:.4s;
+}
+
+#seconddiv{
+    width:100%;
+    min-height:400px;
+    background-color:$color-three;
+}
+
+#seconddiv:hover{
+    min-height:415px;
+    background-color: $color-four;
+    transition:.4s;
+}
+
+#aristocats-cover:hover{
+    margin:30px;
+    transition:.3s;
+}
+
+p{
+    color:whitesmoke;
+    font-family: 'Abhaya Libre', serif;
+    font-size:24px;
+    text-align: justify;
+    margin:5px;
+    padding-top: 15px;
+}
+
+#dancing-cats{
+    float:right;
+    margin:15px;
+}
+
+#dancing-cats:hover{
+    margin:20px;
+    transition:.4s;
+}
+
+.sassydiv{
+    background-color: $color-five;
+    width:100%;
+    min-height:400px;
+    float:left;
+}
+.sassydiv:hover{
+    background-color:$color-six;
+    transition:.3s;
+    min-height:420px;
+}
+
+#somanycats{
+    float:right;
+    margin:15px;
+}
+
+#somanycats:hover{
+    margin:10px;
+    transition:.3s;
+}
+
+h3{
+    text-align:center;
+    font-size:35px;
+    font-family: 'Abhaya Libre', serif;
+}
+
+#divfour{
+    width:100%;
+    min-height:750px;
+    background-color: $color-seven;
+}
+
+#divfour:hover{
+    min-height:760px;
+    background-color:$color-eight;
+    transition:.3s;
+}
+
+#nosecats{
+    float:left;
+    margin:10px;
+}
+
+#nosecats:hover{
+    margin:15px;
+    transition:.3s;
+}
+
+li{
+     color:whitesmoke;
+    font-family: 'Abhaya Libre', serif;
+    font-size:24px;
+    text-align: justify;
+    margin:5px;
+    padding-top: 15px;
+}
